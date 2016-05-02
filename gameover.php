@@ -19,6 +19,7 @@ if (!empty($_SESSION['nama']) and !empty($_SESSION['password']))
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <h1 style="font-size: 44px;">Maaf, Permainan Anda Telah Berakhir</h1>
         <h1 style="font-size: 64px;">Poin Anda : <?php print $pemain[1];?></h1>
+        <?php mysqli_query($con,"UPDATE pemain SET poin=0,puzzle=true,tebakkata=false WHERE nama='$nama'");?>
         <br>
         <form action="puzzle.php">
         <input type="submit" style="font-size: 30px;" class="btn btn-success btn-sm" value="Main Lagi"/>
