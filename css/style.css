@@ -4,7 +4,7 @@
         ul { padding: 0 0 0 20px; }
 
         th { background: #eee; white-space: nowrap; }
-        th, td { padding: 10px; text-align: left; vertical-align: top; font-size: .9em; font-weight: normal; border-right: 1px solid #fff; }
+        th, td { padding: 10px; text-align: center; vertical-align: top; font-size: .9em; font-weight: normal; }
         td:first-child { white-space: nowrap; color: #008000; width: 1%; font-style: italic; }
 
         h1, h2, h3 { color: #4b4b4b; font-family: "Source Sans Pro", sans-serif; font-weight: 300; margin: 0 0 1.2em; }
