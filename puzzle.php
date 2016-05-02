@@ -36,7 +36,7 @@
 </head>
 <header style="height: 90px;">
 <body style="background-image:url(image/background1.jpg);background-position:center; background-size: 100% 1200px ">
-    <table><tr><td><h1  align="center" >Nama : <?php print $nama;?></h1></td><td><h1 align="center" style="background-color: black">Waktu:<span id="countdown"></span><h1></td><td><h1 align="right">Poin : <?php print $pemain[1];?></h1></td></tr></table></header>
+    <table class="pure-g"><tr><td><h1  align="center" >Nama : <?php print $nama;?></h1></td><td><h1 align="center" style="background-color: black">Waktu:<span id="countdown"></span><h1></td><td><h1 align="right">Poin : <?php print $pemain[1];?></h1></td></tr></table></header>
     
     <span id="idgam" hidden="true"><?php print $pz[0];?></span>
     <span id="nama" hidden="true"><?php print $nama;?></span>
@@ -129,7 +129,7 @@ document.getElementById("countdown").innerHTML = waktu;
 </script>
 </body>
 
-<footer align='center'>Made by : Arif Fadly Siregar</footer>
+<footer align='center' style="color:black;">Made by : Arif Fadly Siregar</footer>
 </html>
 <?php
 }
