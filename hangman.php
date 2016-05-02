@@ -26,7 +26,7 @@ if (!empty($_SESSION['nama']) and !empty($_SESSION['password']))
 <html>
  <body style="background-image:url(image/bg1.jpg);background-position:center; background-size:100% 1024px;">
 <div class="wrapper">
-	<table class="pure-g"><tr><td><h1>&nbsp&nbspNama : <?php print $nama;?></h1></td><td><h1 style="color:white;">Waktu:<span id="countdown"></span><h1></td><td><h1>Poin : <?php print $pemain[1];?></h1></td></tr></table>
+	<table><tr><td><h1>&nbsp&nbspNama : <?php print $nama;?></h1></td><td><h1 style="color:white;">Waktu:<span id="countdown"></span><h1></td><td><h1>Poin : <?php print $pemain[1];?></h1></td></tr></table>
 </div>
 <div class="wrapper">
     <span id="nama" hidden="true"><?php print $nama;?></span>
