@@ -50,7 +50,7 @@ var nama=document.getElementById("nama").innerHTML;
 setInterval(function() {
 waktu--;
 if(waktu == 0) {
-window.location.href = "gameover.php?nama="+nama;
+window.location.href = "gameover.php";
 }else{
 document.getElementById("countdown").innerHTML = waktu;
 }
