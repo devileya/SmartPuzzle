@@ -35,7 +35,7 @@ if (!empty($_SESSION['nama']) and !empty($_SESSION['password']))
 	<img src='image/<?php print $pz[1];?>' width='50%'  height='300px'>
         <span id="jawaban" hidden="true"><?php print $pz[3];?></span>
 	 <p style="color:black;"><?php print $pz[2];?></p>
-    <div id="hold">
+    <div id="hold" style="color:black;">
     </div>
     <p id="mylives" style="color:black;"></p>
 
