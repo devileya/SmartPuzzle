@@ -15,9 +15,9 @@ if (!empty($_SESSION['nama']) and !empty($_SESSION['password']))
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Game Over</title>
     </head>
-    <body style="background-image:url(image/bg.jpg);background-position:center; background-size:100% 1024px; background-position-y: -150px;">        
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <h1 style="font-size: 44px;">Maaf, Permainan Anda Telah Berakhir</h1>
+    <body style="background-image:url(image/bgwin.png);background-position:center; background-size:100% 1024px; background-position-y: -150px;">        
+         <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h1 style="font-size: 44px;">Maaf, Anda kalah</h1>
         <h1 style="font-size: 64px;">Poin Anda : <?php print $pemain[1];?></h1>
         <?php mysqli_query($con,"UPDATE pemain SET poin=0,puzzle=true,tebakkata=false WHERE nama='$nama'");?>
         <br>
