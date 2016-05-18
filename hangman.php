@@ -24,9 +24,11 @@ if (!empty($_SESSION['nama']) and !empty($_SESSION['password']))
         <link href="css/style.css" rel="stylesheet" type="text/css" />
 	<link href="css/hangman2.css" rel="stylesheet" type="text/css" />
 <html>
- <body style="background-image:url(image/bg1.jpg);background-position:center; background-size:100% 1024px;">
+
+ <body style="background-image:url(image/bghangman.png);background-position:center; background-size:100% 1024px;">
+
 <div class="wrapper">
-	<table><tr><td><h1>&nbsp&nbspNama : <?php print $nama;?></h1></td><td><h1 style="color:white;">Waktu:<span id="countdown"></span><h1></td><td><h1>Poin : <?php print $pemain[1];?></h1></td></tr></table>
+	<table><tr><td><h1>&nbsp&nbspNama : <?php print $nama;?></h1></td><td><h1 align="center" style="background-color:#728eff;opacity:0.90;border-radius:10px">Waktu:<span id="countdown"></span><h1></td><td><h1>Poin : <?php print $pemain[1];?></h1></td></tr></table>
 </div>
 <div class="wrapper">
     <span id="nama" hidden="true"><?php print $nama;?></span>
